@@ -11,15 +11,19 @@ Download all files to the same folder. Either add the folder make it the current
 ## Usage
 Only lsm files can currently be read by the app. The lsm files must be split into a release and a recovery lsm file. Maximum number of channels is four. This must include a channel giving nuclear staining, mitochondrial staining and protein localisation. 
 
-Type `opto_analyser_app' in the command line.
+Type `opto_analyser_app` in the command line.
 
-The app will load. The lefthand panel gives user input options. Select both the release and recovery lsm files. Input the desired number of window profile seedpoints in comma-separated format (e.g. '1,2,4' would generate three window profiles. The first would have a single manually input segmentation seed-point and a window-size equivalent to the movie length for percentile projections. The second would have two manually input segmentation seed-points and a moving percentile window euivalent to half the total movie length.). It is recommended to try a variety of window-profiles to compare effects of segmentation robustness (lower number of seedpoints) and ability to capture compartment motility (higher number of seedpoints). Seedpoints significntly larger than 4 will require a large degree of manual segmentation and may result in poor compartment capture.
+The app will load. The lefthand panel gives user input options. Select both the release and recovery lsm files. Input the desired number of window profile seedpoints in comma-separated format (e.g. '1,2,4' would generate three window profiles. The first would have a single manually input segmentation seed-point and a window-size equivalent to the movie length for percentile projections. The second would have two manually input segmentation seed-points and a moving percentile window equivalent to half the total movie length.). It is recommended to try a variety of window-profiles to compare effects of segmentation robustness (lower number of seedpoints) and ability to capture compartment motility (higher number of seedpoints). Seedpoints significntly larger than 4 will require a large degree of manual segmentation and may result in poor compartment capture.
 
 The central panel is the location for the majority of image processing and model fitting.
 
 Channel selection tab: Designate nuclear, mitochondrial and protein channels. Crop the image to zoom in around the cell in question. 
 
 Compartment viewing percentiles tab: Load the next window profile and select the optimum percentile projection for each compartment for the moving window.
+
+Cell boundary crop tab: For the next seedpoint for the current window profile, select the project that provides the clearest cell definition and then select `Rough Crop` to manually and roughly crop around the target cell.
+
+Cell thresholding tab: Select the optimum threshold that defines the cell boundary and click `Accept Threshold`.
 
 ## Contributing
 
