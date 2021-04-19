@@ -44,6 +44,9 @@ The central panel is the location for the majority of image processing and model
 
 `Model fitting output`tab: Presents all model fits to intensity profiles for all window-profiles and normalisation methods to give a visual indication of quality of fits. 
 
+## Example Data
+
+To illstrate the functionality of the app, an example experiment is provided in example_cell. Download this data to see how opto_analyser works.
 
 ## Contributing
 
