@@ -1,7 +1,7 @@
 # opto_analyser
 MATLAB app to segment cell compartments and extract dynamic intensities in optogenetic experiments and then fit a system of ordinary differential equations in order to estimate rates of import and export between nuclear and cytoplasmic compartments.
 
-##Installation
+## Installation
 Operation of opto_analyser requires the app, opto_analyser.mlapp and the nonlinear model fitting script fitnlm__opto_analyser_odes.m. In addition, lsmread.m is required to read in lsm files into MATLAB arrays (https://github.com/joe-of-all-trades/lsmread).
 
 Download all files to the same folder. Either add the folder make it the current folder. 
