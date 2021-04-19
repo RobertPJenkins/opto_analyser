@@ -17,4 +17,27 @@ The app will load. The lefthand panel gives user input options. Select both the 
 
 The central panel is the location for the majority of image processing and model fitting.
 
-Channel selection: Designate nuclear, mitochondrial and protein channels. Crop the image to zoom in around the cell in question. 
+Channel selection tab: Designate nuclear, mitochondrial and protein channels. Crop the image to zoom in around the cell in question. 
+
+Compartment viewing percentiles tab: Load the next window profile and select the optimum percentile projection for each compartment for the moving window.
+
+## Contributing
+
+In the first instance please contact robert.jenkins@crick.ac.uk with coding errors or suggestions on making the code better or more suitable to your work.
+
+## Author
+
+Robert P Jenkins (robert.jenkins@crick.ac.uk)
+
+## Licence 
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
