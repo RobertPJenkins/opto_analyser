@@ -46,7 +46,7 @@ The central panel is the location for the majority of image processing and model
 
 ## Example Data
 
-To illstrate the functionality of the app, an example experiment is provided in example_cell. Download this data to see how opto_analyser works.
+To illustrate the functionality of the app, an example experiment is provided in example_cell. Download this data to see how opto_analyser works.
 
 ## Contributing
 
